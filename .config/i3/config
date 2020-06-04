@@ -231,3 +231,6 @@ bindsym $mod+k focus up
 bindsym $mod+l focus right
 
 default_border none
+
+exec --no-startup-id "setxkbmap -option caps:swapescape"
+exec --no-startup-id "redshift -O 2000"
